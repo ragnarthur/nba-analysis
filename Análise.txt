@@ -1,0 +1,46 @@
+Análise de Desempenho de Jogadores da NBA: Temporada Regular vs. Playoffs
+
+**Introdução**
+Esta análise visa explorar o desempenho dos jogadores da NBA durante a temporada regular e os playoffs, utilizando métricas avançadas. O foco principal é identificar as mudanças de desempenho em momentos decisivos e explorar essas variações por posição.
+
+Conjunto de Dados
+O conjunto de dados utilizado contém diversas métricas de desempenho dos jogadores da NBA, incluindo:
+
+raptor_box_offense
+raptor_box_defense
+raptor_offense
+raptor_defense
+war_reg_season
+war_playoffs
+Adicionalmente, uma coluna de posição fictícia foi adicionada para categorizar os jogadores nas posições de Point Guard (PG), Shooting Guard (SG), Small Forward (SF), Power Forward (PF) e Center (C).
+
+Análises Realizadas
+1. Desempenho nos Playoffs vs. Temporada Regular
+Foi calculada a diferença no WAR (Wins Above Replacement) entre os playoffs e a temporada regular para identificar jogadores que melhoraram ou pioraram nos playoffs. Os resultados mostraram:
+
+Jogadores com Maior Melhoria nos Playoffs:
+
+Malaki Branham, Blake Wesley e Jaden Ivey foram alguns dos jogadores que apresentaram a maior melhoria no WAR durante os playoffs.
+Jogadores com Maior Queda nos Playoffs:
+
+Nikola Jokic, Luka Doncic e Damian Lillard tiveram as maiores quedas no WAR, indicando um desempenho significativamente inferior nos playoffs comparado à temporada regular.
+2. Desempenho por Posição
+As métricas de desempenho foram agrupadas por posição para entender melhor como diferentes posições são afetadas nos playoffs.
+
+Resultados Agrupados por Posição:
+
+Point Guards (PG): Apresentaram as maiores quedas em RAPTOR Box Offense e RAPTOR Offense.
+Small Forwards (SF): Destacaram-se com métricas defensivas ligeiramente positivas (RAPTOR Box Defense e RAPTOR Defense).
+Visualizações
+Foram criados gráficos de barras para visualizar as diferenças de desempenho:
+
+WAR na Temporada Regular vs. Playoffs: Comparação do WAR médio por posição.
+RAPTOR Box Offense e Box Defense: Visualização das métricas de RAPTOR ofensivo e defensivo agrupadas por posição.
+RAPTOR Offense e Defense: Visualização das métricas de RAPTOR geral ofensivo e defensivo por posição.
+Conclusão
+A análise revelou que:
+
+Alguns jogadores melhoram significativamente nos playoffs, enquanto outros têm desempenho reduzido.
+Point Guards tendem a ter um desempenho ofensivo mais baixo nos playoffs.
+Small Forwards destacam-se positivamente em termos defensivos durante os playoffs.
+Essas informações fornecem insights valiosos sobre como diferentes jogadores e posições são afetados nos playoffs, ajudando a informar estratégias de equipe e decisões de gerenciamento.
